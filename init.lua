@@ -1,3 +1,2 @@
 require("kuromika")
-print("hello")
 
