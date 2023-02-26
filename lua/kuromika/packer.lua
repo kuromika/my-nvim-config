@@ -27,7 +27,14 @@ return require('packer').startup(function(use)
   use ('ThePrimeagen/harpoon')
   use ('mbbill/undotree')
   use ('tpope/vim-fugitive')
-
+  use ({
+      "catppuccin/nvim", 
+      as = "catppuccin",
+      config = function()
+          require('catppuccin').setup()
+          vim.cmd('colorscheme catppuccin-mocha')
+      end
+  })
   use {
 	  'VonHeikemen/lsp-zero.nvim',
 	  branch = 'v1.x',
