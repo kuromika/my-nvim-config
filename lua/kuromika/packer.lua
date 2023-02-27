@@ -30,6 +30,7 @@ return require('packer').startup(function(use)
   use ('wakatime/vim-wakatime')
   use ('christoomey/vim-tmux-navigator')
   use ('feline-nvim/feline.nvim')
+  use ('andweeb/presence.nvim')
   use ({
       "catppuccin/nvim", 
       as = "catppuccin",
