@@ -10,6 +10,10 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
 
+vim.keymap.set("n", "<leader>[", "<cmd>:bprevious<CR>")
+vim.keymap.set("n", "<leader>]", "<cmd>:bnext<CR>") 
+vim.keymap.set("n", "<leader>cb", "<cmd>:bd<CR>")
+
 vim.keymap.set("n", "<leader>vwm", function()
     require("vim-with-me").StartVimWithMe()
 end)
