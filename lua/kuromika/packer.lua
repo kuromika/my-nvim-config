@@ -31,6 +31,7 @@ return require('packer').startup(function(use)
   use ('christoomey/vim-tmux-navigator')
   use ('feline-nvim/feline.nvim')
   use ('andweeb/presence.nvim')
+  use ('ThePrimeagen/vim-be-good')
   -- using packer.nvim
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
   use {
