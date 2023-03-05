@@ -21,21 +21,6 @@ lsp.configure('lua-language-server', {
 })
 
 
-lsp.configure('tailwindcss', {
-            filetypes = {
-                 "aspnetcorerazor", "astro", "astro-markdown", "blade", "django-html",
-                "htmldjango", "edge", "eelixir", "elixir", "ejs", "erb", "eruby", "gohtml",
-                "haml", "handlebars", "hbs", "html", "html-eex", "heex", "jade", "leaf",
-                "liquid", "markdown", "mdx", "mustache", "njk", "nunjucks", "php",
-                "razor", "slim", "twig", "css", "less", "postcss", "sass", "scss",
-                "stylus", "sugarss", "javascript", "javascriptreact", "reason", "rescript",
-                "typescript", "typescriptreact", "vue", "pug",  "svelte" }
-})
-
-lsp.configure('emmet-ls', {
-    filetypes = { "html", "typescriptreact", "javascriptreact", "css",
-    "sass", "scss", "less", "pug",  "eruby" }
-})
 
 local cmp = require('cmp')
 local cmp_select = {behavior = cmp.SelectBehavior.Select}
